@@ -12,7 +12,24 @@ const copiaArray = (arr) => {
     return copia;
 };
     const arr2 = copiaArray(arr1);
-    arr[0][0] = 5;
+    arr1[0][0] = 5;
 
     console.log(arr1);
     console.log(arr2);
+
+    const cpfs = ["12345678901", "10987654321", 12312312312, "32132132132", 45645645645];
+
+    const result = cpfs.map(cpf =>{
+    /* Reduzido fica assim:
+
+    typeof cpf === "string" ? cpf : cpf.toString())
+    
+    */
+
+        if(typeof cpf === "string"){
+            return cpf;
+        }else{
+            return cpf.toString();
+        }
+    })
+    console.log(result);
