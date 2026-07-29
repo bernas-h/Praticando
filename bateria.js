@@ -7,3 +7,5 @@ const statusBateria = (bateria < 20)
     : "Cheia";
  
 console.log(statusBateria);
+console.log(`Nível da bateria: ${bateria}%`);
+//teste
