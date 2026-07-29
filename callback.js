@@ -15,3 +15,4 @@ const avisaUsuario = (userID) => {
   console.log(`A sessão de ${userID} está inativa.`);
 };
 setTimeout(() => avisaUsuario(userID), 3000);
+//teste
