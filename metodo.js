@@ -30,3 +30,47 @@ for (const cliente of clientes) {
     const status = cliente.ativo ? "ativo" : "inativo";
     console.log(`Nome: ${cliente.nome}, Status: ${status}`);
 }
+
+const produto = {
+    nome: "Fone de ouvido" ,
+    preco: 100,
+    disponivel: true,
+}
+
+console.log(produto);
+
+const configuracao = {
+    tema: "Escuro",
+    idioma: "PT-BR",
+    notificacoes: true,
+}
+console.log("Tema: ",configuracao.tema);
+console.log("Idioma: ", configuracao["idioma"]);
+
+const receita = {
+    nome: "Bolo de Chocolate",
+    ingredientes: ["chocolate", "farinha", "açúcar", "ovos", "leite"],
+    tempoPreparo: 60,
+}
+console.log(receita.ingredientes[2]);
+receita.ingredientes.push("fermento");
+console.log(receita.ingredientes);
+
+const carro = {
+  marca: 'Toyota',
+  modelo: 'Corolla',
+  ano: 2022,
+  modeloAntigo: 'Corolla XEi'
+};
+delete carro.modeloAntigo;
+console.log(carro);
+
+const dispositivos = [
+  { nome: 'Impressora', status: 'ativo' },
+  { nome: 'Scanner', status: 'inativo' },
+  { nome: 'Projetor', status: 'ativo' }
+];
+
+for (const dispositivo of dispositivos) {
+  console.log(`Dispositivo: ${dispositivo.nome} | Status: ${dispositivo.status}`);
+}
