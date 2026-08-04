@@ -161,10 +161,10 @@ if (totalDias > 20) {
 const curso = {
   titulo: "JavaScript Intermediário",
   estudantes: [
-    { nome: "João", progresso: 85 },
-    { nome: "Ana", progresso: 40 },
-    { nome: "Juliano", progresso: 72 },
-    { nome: "Patrícia", progresso: 60 }
+    { nome: "Bernardo", progresso: 85 },
+    { nome: "Paulo", progresso: 40 },
+    { nome: "Joao", progresso: 72 },
+    { nome: "Bruna", progresso: 60 }
   ],
 
   gerarRelatorio: function () {
