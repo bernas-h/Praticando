@@ -109,9 +109,9 @@ const dados = [
 console.log(montarObjeto(dados));
 
 const relatorio = {
-  temperatura: 75,
+  temperatura: 50,
   vibracao: 40,
-  pressao: 55,
+  pressao: 50,
   nivelRuido: 30
 };
 
